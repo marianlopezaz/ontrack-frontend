@@ -1,0 +1,128 @@
+.container {
+  margin: auto;
+}
+.header_container {
+  font-weight: 600;
+  font-size: 12px;
+  text-align: left;
+  padding-left: 35px;
+}
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.highlight {
+  color: var(--orange);
+}
+
+.content_container {
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 10px;
+}
+.post_image {
+  max-width: 200px;
+  padding: 10px;
+}
+
+.comments_actions {
+  border: solid 1px #bbb;
+  width: 100%;
+  border-left-style: none;
+  border-right-style: none;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+.comments_label,
+.attach_label {
+  font-size: 10px;
+  color: var(--main-color-dark);
+  font-weight: 600;
+  cursor: pointer;
+}
+.comments_label:hover,
+.attach_label:hover {
+  text-decoration-line: underline;
+}
+
+.attach_label {
+  display: block;
+}
+
+.more_options {
+  position: absolute;
+  top: -15px;
+  right: -17px;
+}
+.comment_container {
+  background-color: var(--white);
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 70%;
+}
+
+.comments_container {
+  max-height: 200px;
+  overflow: auto;
+}
+.comment_body {
+  margin-bottom: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  word-break: break-all;
+}
+.collapse_container {
+  position: absolute;
+  right: 20px;
+  top: -10px;
+  background: white;
+  padding: 10px 7px 0px 7px;
+  border-radius: 5px;
+  width: 200px;
+  z-index: 100;
+}
+.collapse_body {
+  display: flex;
+  flex-direction: column;
+}
+.options_label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  background: var(--white);
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.options_label_description {
+  padding-left: 15px;
+}
+
+.file_container {
+  display: flex;
+  padding: 10px;
+  background: var(--gray);
+  border-radius: 10px;
+  width: fit-content;
+  min-width: 80px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-right: 10px;
+  border: solid 2px var(--main-color-dark);
+}
